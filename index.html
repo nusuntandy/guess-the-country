@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Guess The Country Flag</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/App.css">
+        <script src='./assets/App.js'></script>
+    </head>
+
+    <body class="text-white">
+        <nav class="navbar navbar-light bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand text-success" href="#">Guess The Country</a>
+            </div>
+        </nav>
+
+        <br>
+
+        <div class="container text-center">
+            <div class="row"> 
+                <div class="col-md-6 mx-auto">
+                    <div id="countryInfo">
+                    </div>
+                    <input type="text" id="gameInput" class="form-control" placeholder="Country Name" aria-describedby="button-addon2">
+                
+                    <h4 class="mt-3" id="message"><br></h4>
+
+                    <div class="container d-lg-flex justify-content-between">
+                        <h4>Time Left: <span id="gameTime">0</span></h4>
+                        <h4>Score: <span id="gameScore">0</span></h4>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-md-12">
+                            <div class="card card-body bg-dark">
+                                <h5>Instructions:</h5>
+                                <p>Type each country in the given amount of seconds to score. To play again, type the current country. Otherwise, your score will reset.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
